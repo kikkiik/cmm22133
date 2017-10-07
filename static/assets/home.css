@@ -1,0 +1,45 @@
+header .navbar-tabs {
+  justify-content: center;
+}
+
+.highlight {
+       margin-bottom: 0 !important;
+}
+
+.highlight .highlight-item {
+    height: 416px;
+    background: url(/assets/images/home/banner/highlight.jpg) no-repeat center/cover;
+    color: white; 
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+ 	font-size: 400%
+} 
+ 
+.thumbnail {
+	border-top: 3px solid #ffffff;
+}
+
+
+.thumbnail .thumbnail-item {
+	border-right: 3px solid #ffffff;
+}
+
+
+.thumbnail .thumbnail-item:last-child {
+	border: none;
+}
+
+.thumbnail .thumbnail-item {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10rem;
+}
+
+
+
